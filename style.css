@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    text-align: center;
+}
+.header{
+    min-height: 90px ;
+    margin-bottom: 20px;
+}
+.promo{
+    overflow: hidden;
+    max-height: 270px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width:990px) {
+    .promo{
+        max-height: 360px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .promo{
+        max-height: 400px;
+    }
+}
+@media screen and (min-width:1380px) {
+    .promo{
+        max-height: 500px;
+    }
+}
+.font{
+    min-height: 90px;
+}
+.col-lg-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    min-height: 230px;
+}
+.item h5{
+    color: crimson;
+}
+.card:hover{
+    border: 2px solid deepskyblue;
+}
+.foto{
+    overflow: hidden;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.footer{
+    text-align: center;
+    min-height: 100px;
+}
+.col-md-3{
+    font-size: 30px;
+    font-family: 'Comforter Brush', cursive;
+}
+.font1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Comforter Brush', cursive;
+}
+.font2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.font3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Comforter', cursive;
+}
+.font4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.font5{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.font6{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+img{
+    max-width: 100%;
+}
+.footer a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.footer a:hover{
+    color: crimson;
+}
